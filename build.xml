@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FlappyBird" default="buildjar" basedir=".">
+    <target name="buildjar" description="Build JAR">
+        <jar destfile="${ant.project.name}_build.jar">
+            <fileset dir="bin"></fileset>
+            <fileset file="plugin.yml"></fileset>
+        </jar>
+    </target>
+</project>

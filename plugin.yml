@@ -1,0 +1,16 @@
+main: com.simmike.flappybird.Main
+name: FlappyBird
+version: 1.0
+author: Sim
+description: Flappy Bird Core
+commands:
+  startgame:
+    description: Start game
+    usage: /startgame
+    permission: flappybird.startgame
+    permission-message: Hey! You can't do that!
+  powerup:
+    description: Get a powerup
+    usage: /powerup <1-4>
+    permission: flappybird.powerup
+    permission-message: Hey! You can't do that!
