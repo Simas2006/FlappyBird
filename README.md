@@ -30,10 +30,10 @@ Make a powerup block in your path, with the number picking the powerup in the or
 ### static boolean gameActive
 Activates the game. Used by /startgame.
 
-### static List<String> players
+### static List&lt;String&gt; players
 List of players, and their associated indices.
 
-### static List<Boolean> alive
+### static List&lt;Boolean&gt; alive
 Boolean of whether or not the player at that index in players is alive.
 
 ### static int spaceAllowed
